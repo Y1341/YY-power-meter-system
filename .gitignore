@@ -1,0 +1,43 @@
+# Build directories
+build/
+cmake-build-*/
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.sln.user
+*.vcxproj.user
+*.code-workspace
+
+# LabVIEW
+*.lvbak
+*.aliases
+*.lvlps
+vi.lib/
+
+# Executable and libraries
+*.exe
+*.dll
+*.lib
+*.o
+*.a
+
+# Data files
+*.txt
+*.log
+*.csv
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# CMake
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+
+# Compiled Python
+__pycache__/
+*.pyc
